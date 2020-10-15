@@ -1,6 +1,6 @@
 = Exception detector plugin for {fluentd}[http://github.com/fluent/fluentd]
 
-fluent-plugin-multi-exceptions is an
+fluent-plugin-group-exceptions is an
 {output plugin for fluentd}[http://docs.fluentd.org/articles/output-plugin-overview]
 which scans a log stream text messages or JSON records for multi-line exception
 stack traces: If a consecutive sequence of log messages forms an exception stack
@@ -24,16 +24,16 @@ this loss of information is irrelevant.
 
 This is NOT an official Google product.
 
-{<img src="https://badge.fury.io/rb/fluent-plugin-detect-exceptions.svg" alt="Gem Version" />}[http://badge.fury.io/rb/fluent-plugin-multi-exceptions]
-{<img src="https://secure.travis-ci.org/GoogleCloudPlatform/fluent-plugin-detect-exceptions.png" alt="Build Status" />}[https://travis-ci.org/GoogleCloudPlatform/fluent-plugin-multi-exceptions]
+{<img src="https://badge.fury.io/rb/fluent-plugin-detect-exceptions.svg" alt="Gem Version" />}[http://badge.fury.io/rb/fluent-plugin-group-exceptions]
+{<img src="https://secure.travis-ci.org/GoogleCloudPlatform/fluent-plugin-detect-exceptions.png" alt="Build Status" />}[https://travis-ci.org/GoogleCloudPlatform/fluent-plugin-group-exceptions]
 
 == Installation
 
 This gem is hosted at
-{RubyGems.org}[https://rubygems.org/gems/fluent-plugin-multi-exceptions]
+{RubyGems.org}[https://rubygems.org/gems/fluent-plugin-group-exceptions]
 and can be installed using:
 
-    $ gem install fluent-plugin-multi-exceptions
+    $ gem install fluent-plugin-group-exceptions
 
 Installing {google-fluentd}[https://cloud.google.com/logging/docs/agent/]
 will also install and configure the gem.

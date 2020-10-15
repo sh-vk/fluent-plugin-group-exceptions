@@ -1,6 +1,6 @@
 = Exception detector plugin for {fluentd}[http://github.com/fluent/fluentd]
 
-fluent-plugin-detect-exceptions is an
+fluent-plugin-multi-exceptions is an
 {output plugin for fluentd}[http://docs.fluentd.org/articles/output-plugin-overview]
 which scans a log stream text messages or JSON records for multi-line exception
 stack traces: If a consecutive sequence of log messages forms an exception stack

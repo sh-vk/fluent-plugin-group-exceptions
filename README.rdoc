@@ -24,8 +24,8 @@ this loss of information is irrelevant.
 
 This is NOT an official Google product.
 
-{<img src="https://badge.fury.io/rb/fluent-plugin-detect-exceptions.svg" alt="Gem Version" />}[http://badge.fury.io/rb/fluent-plugin-detect-exceptions]
-{<img src="https://secure.travis-ci.org/GoogleCloudPlatform/fluent-plugin-detect-exceptions.png" alt="Build Status" />}[https://travis-ci.org/GoogleCloudPlatform/fluent-plugin-detect-exceptions]
+{<img src="https://badge.fury.io/rb/fluent-plugin-detect-exceptions.svg" alt="Gem Version" />}[http://badge.fury.io/rb/fluent-plugin-multi-exceptions]
+{<img src="https://secure.travis-ci.org/GoogleCloudPlatform/fluent-plugin-detect-exceptions.png" alt="Build Status" />}[https://travis-ci.org/GoogleCloudPlatform/fluent-plugin-multi-exceptions]
 
 == Installation
 

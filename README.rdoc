@@ -30,10 +30,10 @@ This is NOT an official Google product.
 == Installation
 
 This gem is hosted at
-{RubyGems.org}[https://rubygems.org/gems/fluent-plugin-detect-exceptions]
+{RubyGems.org}[https://rubygems.org/gems/fluent-plugin-multi-exceptions]
 and can be installed using:
 
-    $ gem install fluent-plugin-detect-exceptions
+    $ gem install fluent-plugin-multi-exceptions
 
 Installing {google-fluentd}[https://cloud.google.com/logging/docs/agent/]
 will also install and configure the gem.
@@ -102,7 +102,7 @@ The plugin supports the following parameters:
 Example configuration:
 
     <match **>
-      @type detect_exceptions
+      @type multi_exceptions
       remove_tag_prefix foo
       message log
       languages java, python
